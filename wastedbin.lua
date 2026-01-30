@@ -3158,7 +3158,7 @@ return wastedbin
 -- 1) Load the module (choose method):
 --
 --   -- A) loadstring + HttpGet
---   local wastedbin = loadstring(game:HttpGet(https://raw.githubusercontent.com/wastedbin/ui/main/wastedbin.lua))()
+--   local wastedbin = loadstring(game:HttpGet("https://raw.githubusercontent.com/wastedbin/ui/main/wastedbin.lua"))()
 --
 --   -- B) ModuleScript require 
 --   -- Put this file as a ModuleScript, e.g. ReplicatedStorage/wastedbinUI_Premium_V1
